@@ -1,0 +1,45 @@
+{
+  "name": "create-express-doc",
+  "version": "1.0.0",
+  "description": "Automatically generate API documentation for Express.js applications",
+  "main": "src/documentationGenerator.js",
+  "bin": {
+    "create-express-doc": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "documentation",
+    "api",
+    "cli",
+    "generator",
+    "docs",
+    "automatic"
+  ],
+  "author": "Jnanesh <jtuluve@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtuluve/create-express-doc.git"
+  },
+  "homepage": "https://github.com/jtuluve/create-express-doc#readme",
+  "bugs": {
+    "url": "https://github.com/jtuluve/create-express-doc/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/parser": "^7.22.0",
+    "@babel/traverse": "^7.22.0",
+    "path": "^0.12.7"
+  },
+  "preferGlobal": true
+}
