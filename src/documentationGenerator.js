@@ -12,7 +12,7 @@ class DocumentationGenerator {
       outputDir = "./docs",
       jsonFileName = "api-documentation.json",
       readmeFileName = "README.md",
-      includeMiddleware = true,
+      includeMiddleware = true, //TODO: fix
       includeSourceFiles = false,
     } = options;
 
