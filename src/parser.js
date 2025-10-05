@@ -643,7 +643,7 @@ class ExpressParser {
     const documentation = {
       info: {
         title: "API Documentation",
-        version: "1.0.0",
+        version: extractVersionFromPackageJson(this.baseDir + "/package.json"),
         description:
           "Auto-generated API documentation for Express.js application",
         generatedAt: new Date().toISOString(),
